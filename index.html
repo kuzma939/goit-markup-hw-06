@@ -25,20 +25,26 @@ for Your Business"
   <body class="body">
     <!-- Heder section -->
     <header class="header">
-      <div class="container header-conteiner">
+      <div class="container header-container">
+        
         <nav class="header-nav">
           <a class="header-logo link" href="./index.html"
             >Web
             <span class="header-logo-stydio">Studio</span>
           </a>
+          <button class="menu-btn" type="button" aria-label="Open menu buttom">
+            <svg class="menu-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-hero-menu"></use>
+            </svg>
+          </button>
+         
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-item-stydio link" href="./index.html">Studio</a>
             </li>
             <li class="header-item">
               <a class="header-item-st link" href="./portfolio.html"
-                >Portfolio</a
-              >
+                >Portfolio</a>
             </li>
             <li class="header-item">
               <a class="header-item-st link" href="">Contacts</a>
@@ -59,16 +65,17 @@ for Your Business"
             </li>
           </ul>
         </address>
+     
       </div>
     </header>
     <!-- Main block -->
     <main class="main">
       <!-- Hero image -->
       <section class="section-hero" id="business">
-       <div class="container">
+       <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" type="button">Order Service</button>
-        </div>
+            <button class="hero-btn" type="button">Order Service</button>
+        
       </section>
       <!-- Section 1 -->
       <section class="section">
@@ -131,7 +138,7 @@ for Your Business"
      
       <!-- Our Team section -->
       <section class="section-team" id="team">
-        <div class="container-team">
+        <div class="container-team container">
           <h2 class="section-team-our-title">Our Team</h2>
           <ul class="section-team-list list">
             <li class="section-team-item">
@@ -314,7 +321,7 @@ for Your Business"
       </section>
        <!-- Portfolio-->
        <section class="section-team-p" id="teams">
-        <div class="container-port">
+        <div class="container-port container">
           <h2 class="section-team-our-title">Our Portfolio</h2>
         
          <ul class="section-list-portfolio list">
@@ -418,7 +425,7 @@ for Your Business"
   </main>
   
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="footer-c"> 
         <div class="cont-footer"> 
           <a class="footer-link link" href="./index.html">
@@ -481,7 +488,7 @@ for Your Business"
       </div>
     </footer>
     <!-- Form -->
-<div class="backdrop">
+<div class="backdrop hide">
   <div class="modal">
   <button class="modal-button" type="button" aria-label="Modal close button">
     <svg class="form-svg-vek" width="8" height="8">
@@ -537,5 +544,57 @@ for Your Business"
   </form>
   </div>
   </div>
+   <!-- Mobile menu -->
+   <div class="mobile-menu">
+    <button class="menu-btn" type="button">
+      <svg class="menu-btn-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-menu-btn"></use>
+     </svg> 
+    </button>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link current" href="">Studio</a></li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="">Portfolio</a></li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="">Contacts</a></li>
+    </ul>
+    <ul class="mobile-menu-contax">
+      <li class="mobile-menu-item">
+        <a href="tel:+110001111111" class="mobile-menu-contak accent">+11 (000) 111-11-11</a></li>
+      <li class="mobile-menu-item">
+        <a href="mailto:info@devstudio.com" class="mobile-menu-contak">info@devstudio.com</a></li>
+    </ul>
+    <ul class="mobile-menu-list-s list-s">
+      <li class="list-s-media">
+        <a class="footer-media" href="">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="list-s-media">
+        <a class="footer-media" href="">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-twiter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="list-s-media">
+        <a class="footer-media" href="">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebbok"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="list-s-media">
+        <a class="footer-media" href="">
+          <svg class="footer-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-in"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+   </div>
   </body>
-  </html>
+</html>
