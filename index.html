@@ -50,7 +50,7 @@ for Your Business"
               <a class="header-item-st link" href="">Contacts</a>
             </li>
           </ul>
-        </nav>
+        
         <address class="address">
           <ul class="address-list list">
             <li class="address-item">
@@ -65,7 +65,7 @@ for Your Business"
             </li>
           </ul>
         </address>
-     
+      </nav>
       </div>
     </header>
     <!-- Main block -->
@@ -327,7 +327,21 @@ for Your Business"
          <ul class="section-list-portfolio list">
           <li class="section-item">
             <div class="portfolio-img">
-                <img src="./images/img-1p.jpg" alt="App" width="360"/>
+              <picture>
+                 <!--Mobile-->
+                <source media="(max-width: 657px)" srcset="./images/img_mob@1x.jpg 1x,
+                ./images/img_mob@2x.jpg 2x">
+               
+                  <!--Table-->
+                <source media="(min-width: 658px)" srcset="./images/img_tab@1x.jpg 1x,
+                ./images/img_tab@2x.jpg 2x">
+
+                <source media="(min-width: 1168px)" srcset="./images/img_pace@1x.jpg 1x,
+                ./images/img_pace@2x.jpg 2x">
+                <img src="./images/img-1p.jpg" alt="App" width="360" loading="lazy"/>
+                
+              </picture>
+               
               <p class="portfolio-p">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -335,7 +349,7 @@ for Your Business"
               </p>
             </div>
             <div class="names">
-              <h3 class="section-title">Banking App</h3>
+              <h3 class="section-title-port">Banking App</h3>
               <p class="section-pr">App</p>
             </div>
        
@@ -343,7 +357,7 @@ for Your Business"
         <li class="section-item">
          
             <div class="portfolio-img">
-                <img src="./images/img-2p.jpg" alt="Marketing" width="360"/>
+                <img src="./images/img-2p.jpg" alt="Marketing" width="360" loading="lazy"/>
               <p class="portfolio-p">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -352,14 +366,14 @@ for Your Business"
             </div>
 
             <div class="names">
-              <h3 class="section-title">Cashless Payment</h3>
+              <h3 class="section-title-port">Cashless Payment</h3>
               <p class="section-pr">Marketing</p>
             </div>
          
         </li>
         <li class="section-item">
             <div class="portfolio-img">
-                <img src="./images/img-3p.jpg" alt="App" width="360"/>
+                <img src="./images/img-3p.jpg" alt="App" width="360" loading="lazy"/>
               <p class="portfolio-p">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -367,14 +381,14 @@ for Your Business"
               </p>
             </div>
            <div class="names">
-              <h3 class="section-title">Meditation App</h3>
+              <h3 class="section-title-port">Meditation App</h3>
               <p class="section-pr">App</p>
             </div>
          </li>
         <li class="section-item">
          
            <div class="portfolio-img">
-              <img src="./images/img-4p.jpg" alt="Marketing" width="360"/>
+              <img src="./images/img-4p.jpg" alt="Marketing" width="360" loading="lazy"/>
               <p class="portfolio-p">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -383,7 +397,7 @@ for Your Business"
             </div>
 
             <div class="names">
-              <h3 class="section-title">Taxi Service</h3>
+              <h3 class="section-title-port">Taxi Service</h3>
               <p class="section-pr">Marketing</p>
             </div>
        
@@ -391,7 +405,7 @@ for Your Business"
         <li class="section-item">
           
             <div class="portfolio-img">
-                <img src="./images/img-5p.jpg" alt="Design" width="360"/>
+                <img src="./images/img-5p.jpg" alt="Design" width="360" loading="lazy"/>
               <p class="portfolio-p">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -399,13 +413,13 @@ for Your Business"
               </p>
             </div>
             <div class="names">
-              <h3 class="section-title">Screen Illustrations</h3>
+              <h3 class="section-title-port">Screen Illustrations</h3>
               <p class="section-pr">Design</p>
             </div>
         </li>
         <li class="section-item">
           <div class="portfolio-img">
-                <img src="./images/img-6p.jpg" alt="Marketing" width="360"/>
+                <img src="./images/img-6p.jpg" alt="Marketing" width="360" loading="lazy"/>
               <p class="portfolio-p">
                 14 Stylish and User-Friendly App Design Concepts · Task
                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -414,7 +428,7 @@ for Your Business"
             </div>
 
             <div class="names">
-              <h3 class="section-title">Online Courses</h3>
+              <h3 class="section-title-port">Online Courses</h3>
               <p class="section-pr">Marketing</p>
             </div>
          </li>
